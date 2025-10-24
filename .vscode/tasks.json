@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run C file",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "clang -g \"${file}\" -o \"${workspaceFolder}/bin/${fileBasenameNoExtension}\" && \"${workspaceFolder}/bin/${fileBasenameNoExtension}\""
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
