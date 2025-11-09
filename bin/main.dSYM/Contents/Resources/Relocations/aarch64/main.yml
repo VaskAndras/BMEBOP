@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/andrasvasko/megafeltoltes/prog/bmebop/bin/main'
+relocations:     []
+...

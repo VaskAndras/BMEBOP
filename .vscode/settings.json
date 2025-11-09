@@ -1,4 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
-    "editor.inlineSuggest.experimental.showOnSuggestConflict": "always"
+    "editor.inlineSuggest.experimental.showOnSuggestConflict": "always",
+    "editor.suggest.preview": true,
+    "files.associations": {
+        "array": "cpp"
+    }
 }
